@@ -22,6 +22,20 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Login Credintials 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+userName: admin
+password: admin123 
+
+![image](https://github.com/mohamedfathyd/tie-user-managment/assets/31135718/c6962753-76d9-458f-87a1-9d19d9776cb0)
+
+![image](https://github.com/mohamedfathyd/tie-user-managment/assets/31135718/17e141b8-aba8-4f55-bcf9-780303b3d5a7)
+
+![image](https://github.com/mohamedfathyd/tie-user-managment/assets/31135718/f76c7224-8209-492d-92f5-a8aa5d9fb791)
+
+![image](https://github.com/mohamedfathyd/tie-user-managment/assets/31135718/d8d0a5f7-6db8-41fa-be98-9986b3674e88)
+
+
+
+
+
