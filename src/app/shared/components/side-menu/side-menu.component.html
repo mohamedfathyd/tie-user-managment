@@ -2,7 +2,7 @@
 'language-en':lang=='en' }">
     <div class="header" (click)="handleSidebarToggle()">
         <img class="logo__icon" [ngClass]="{'language-ar':lang=='ar',
-        'language-en':lang=='en' }" src="assets/icons/logo_bot.svg" alt="Loading">
+        'language-en':lang=='en' }" src="assets/images/management.png" alt="Loading">
      </div>
     <div class="content">
      <div class="link with-children">
@@ -19,18 +19,11 @@
           <i id="child-13-b" [style.display]=" active? 'block': 'none'" class="fa-solid fa-angle-down"></i>
         </div>
         <div class="children" id="child-13" [style.display]=" active? 'block': 'none'">
-          <div class="link" *ngIf="adminView">
+          <div class="link">
             <div class="content" [routerLink]="['/homeScreen/admin']" [queryParams]="{ 'child': '1' }"
               [routerLinkActive]="'active'">
               <div class="title" [ngClass]="{'language-ar':lang=='ar',
               'language-en':lang=='en' }">{{language.viewAdmin}}</div>
-            </div>
-          </div>
-          <div class="link">
-            <div class="content" [routerLink]="['/homeScreen/user']"
-              [routerLinkActive]="'active'">
-              <div class="title" [ngClass]="{'language-ar':lang=='ar',
-              'language-en':lang=='en' }">{{language.viewUser}}</div>
             </div>
           </div>
         </div>

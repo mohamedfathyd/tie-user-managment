@@ -1,0 +1,50 @@
+@import "./../../../core/styles/_variables.scss";
+
+.confirm {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(22, 22, 22, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 400px;
+    width: 35%;
+    min-height: 150px;
+    padding: 30px 30px;
+    background-color: #f8f9fb;
+    border-radius: 10px;
+  }
+  &__title {
+    color: #2a2a2a;
+    text-align: center;
+    font-size: 16px;
+  }
+  &__button_div {
+    display: flex;
+  }
+  &__button {
+    margin: 5px;
+  }
+  .input-style{
+    fill: $primary-green;
+    border: 1px solid #939398;
+    border-radius: 4px;
+    padding: 5px;
+    width: 90%;
+    margin: 30px;
+    input{
+        border: transparent;
+        background: transparent;
+        width: 100%;
+      }
+ }
+}

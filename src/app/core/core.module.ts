@@ -7,12 +7,12 @@ import { NotifierComponent } from './components/notifier/notifier.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MainInterceptor } from './main.interceptor';
 import { MaterialModule } from '../material.module';
-
+import { ConfirmInputComponent } from './components/confirm-input/confirm-input.component';
 import { NotificationComponent } from './components/notificaiton/notification.component';
 
 
 @NgModule({
-  declarations: [LoadingComponent,NotifierComponent,NotificationComponent],
+  declarations: [LoadingComponent,NotifierComponent,NotificationComponent,ConfirmInputComponent],
   imports: [
     CommonModule,
     FormsModule, ReactiveFormsModule,MaterialModule,
@@ -26,6 +26,7 @@ import { NotificationComponent } from './components/notificaiton/notification.co
     ReactiveFormsModule,
     LoadingComponent,
     NotifierComponent,
+    ConfirmInputComponent,
     NotificationComponent
   ]
 })

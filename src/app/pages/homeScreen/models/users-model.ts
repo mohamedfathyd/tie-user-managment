@@ -9,7 +9,10 @@ export interface UsersInterFace{
         name:string,
         lastName: string,
         email: string,
-        phone:string,
-        refreshToken:string
+        phone: string,
+        departmant: string,
+        skills:string [],
+        refreshToken: string,
+        performance:string
     }
 }

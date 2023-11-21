@@ -1,0 +1,19 @@
+<div class="confirm">
+  <div class="confirm__box">
+    <h4 class="confirm__title">{{ confirmInput.msg }}</h4>
+    <div class="input-style">
+    <select [(ngModel)]="userData.department" id="product" class="w-100 py-2 px-3 input ">
+      <option *ngFor="let department of departments" [value]="department.name">{{department.name}}
+      </option>
+  </select>  
+  </div>
+    <div class="confirm__button_div">
+    <div (click)="checkValue(userData)" class="btn btn--white-green btn--block btn--rounded confirm__button">
+      {{ language.confirm }}
+    </div>
+    <div (click)="closeConfrimInput(false,userData)" class="btn btn--white-red btn--block btn--rounded confirm__button">
+      {{ language.cancel }}
+    </div>
+  </div>
+  </div>
+</div>

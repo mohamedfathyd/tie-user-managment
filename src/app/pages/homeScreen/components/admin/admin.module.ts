@@ -5,17 +5,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { SharedModule } from '../../../../shared/shared.module';
 import { DataTablesModule } from 'angular-datatables';
 import { CoreModule } from '../../../../core/core.module';
-import { EditUserComponent } from '../edit-user/edit-user.component';
-import { UserComponent } from '../user/user.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
 const routes: Routes = [
   { path: '', component: AdminComponent },
-  { path:'admin/editUser',component: EditUserComponent}
 ];
 @NgModule({
-  declarations: [AdminComponent,EditUserComponent],
+  declarations: [AdminComponent],
   imports: [
     CommonModule,
     SharedModule,CoreModule,

@@ -90,10 +90,19 @@
     margin: 0px 7px;
 }
 .table-content{
-    margin:90px 20px 20px 20px ;
+    margin:120px 20px 20px 20px ;
 }
 .text-white{
     cursor: pointer;
+}
+.select-type-content{
+    width: 20%;
+    margin: 8px;
+    margin-inline-start: 75%;
+}
+.select-type{
+    border: 1px solid;
+    border-radius: 8px;
 }
 .btn-submit-question {
     background: #e1b52b 0% 0% no-repeat padding-box;

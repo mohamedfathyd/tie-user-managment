@@ -37,10 +37,7 @@ export class LoginComponent extends GlobalState implements OnInit {
     return this.loginForm.controls;
   }
   validateForm() {
-    if (this.loginForm.controls['username'].value == "user" &&
-    this.loginForm.controls['password'].value=="user123")
-      this.login(UserType.user);
-    else if (this.loginForm.controls['username'].value == "admin" &&
+    if (this.loginForm.controls['username'].value == "admin" &&
     this.loginForm.controls['password'].value=="admin123") this.login(UserType.admin);
     else this.notifier = {
       shown: true,
@@ -65,9 +62,6 @@ export class LoginComponent extends GlobalState implements OnInit {
           localStorage.setItem("refresh_token", res.data.refreshToken);
           localStorage.setItem("userType",res.data.type)
           this.loginForm.reset();
-          if(userType==UserType.user) 
-            this.router.navigate(['/homeScreen/user']);
-          else
           this.router.navigate(['/homeScreen/admin']);
         } else
           this.notifier = {

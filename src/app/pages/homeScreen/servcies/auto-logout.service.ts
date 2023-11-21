@@ -51,8 +51,8 @@ export class AutoLogoutService {
 
     this.ngZone.run(() => {
       if (isTimeout && localStorage.getItem("token")) {
-        this.router.navigate(['/']);
-        localStorage.removeItem(STORE_KEY)
+        //this.router.navigate(['/']);
+        //localStorage.removeItem(STORE_KEY)
       }
     });
   }

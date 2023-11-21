@@ -12,6 +12,8 @@ import { OnlyNumberDirective } from './shared/directives/NumberOnly.directive';
 import { SharedModule } from './shared/shared.module';
 
 import { DateRangeServices } from './shared/servcies/dateRange.servcies';
+import { DataTablesModule } from 'angular-datatables';
+
 
 
 @NgModule({
@@ -24,6 +26,7 @@ import { DateRangeServices } from './shared/servcies/dateRange.servcies';
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
+    DataTablesModule,
     RouterModule.forRoot(routes),
     SharedModule,
   ],

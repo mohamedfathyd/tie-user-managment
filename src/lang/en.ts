@@ -49,5 +49,12 @@ export const en = {
 	success: "Edit Done Succesfully",
 	view: "View",
 	viewAdmin: "ViewAdmin",
-	viewUser:"View User"
+  viewUser: "View User",
+  department: "Department",
+  skills: "Skills",
+  relocation: "Relocation",
+  relocationMessage: "Relocation departmant for this employee",
+  errorMessage: "this is aleary the current department of this employee",
+  performance: "Performance",
+  all:"All"
  };

@@ -1,0 +1,19 @@
+{"departments": [
+      {
+       "name":"IT"
+      },
+      {
+       "name":"Marketing"
+      },
+      {
+        "name":"Sales"
+      },
+      {
+        "name":"Business"
+      },
+      {
+        "name":"Develober"
+      }
+      
+    ]
+}

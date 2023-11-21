@@ -17,7 +17,6 @@ export class SideMenuComponent extends GlobalState implements OnInit {
   @Input() isExpanded: boolean = false;
   @Output() toggleSidebar: EventEmitter<boolean> = new EventEmitter<boolean>();
   lang = localStorage.getItem("language");
-  adminView = false;
   constructor(@Inject(DOCUMENT) document, private router: Router, private services: HomeScreenService) {
     super();
   }
@@ -27,9 +26,6 @@ export class SideMenuComponent extends GlobalState implements OnInit {
   }
   active = false;
   display(id, ida, idb) {
-    if (localStorage.getItem("userType") == "admin") {
-      this.adminView = true;
-    }else this.adminView = false;
     if (document.getElementById(id).style.display == 'none') {
       document.getElementById(id).style.display = 'block';
       document.getElementById(ida).style.display = 'none';

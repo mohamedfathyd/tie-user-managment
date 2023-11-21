@@ -37,7 +37,7 @@ public static notification = {
 public static confirmInput = {
   shown: false,
   msg: '',
-  input:'',
+  input:{department:'',id:''},
   yesFn(value){},
   noFn(){}
 };

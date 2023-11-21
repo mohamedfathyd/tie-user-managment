@@ -49,5 +49,12 @@ export const ar = {
 	success: "تم التعديل بنجاح",
 	view: "عرض",
 	viewAdmin: "عرض كامسؤل",
-	viewUser:"عرض كامستخدم"
+  viewUser: "عرض كامستخدم",
+  department: "قسم",
+  skills: "مهارات",
+  relocation: "نقل",
+  relocationMessage: "تغيير القسم لهذا الموظف",
+  errorMessage: "هذا القسم هوه القسم الحالي لهذا الموظف",
+  performance: "اداء",
+  all:"الكل"
  };

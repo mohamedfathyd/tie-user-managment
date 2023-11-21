@@ -18,9 +18,7 @@ import { Daterangepicker } from 'ng2-daterangepicker';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { NgxPermissionsModule } from 'ngx-permissions';
-import { UserModule } from './components/user/user.module';
 import { AdminModule } from './components/admin/admin.module';
-import { EditUserComponent } from './components/edit-user/edit-user.component';
 
 @NgModule({
   declarations: [HomeScreenComponent],
@@ -40,7 +38,6 @@ import { EditUserComponent } from './components/edit-user/edit-user.component';
     NgxChartsModule,
     NgApexchartsModule,
     AdminModule,
-    UserModule
   ],
   providers: [
     OnlyNumberDirective,
